@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c37a3ce2.css",
+    "main.js": "/static/js/main.46e3155f.js",
+    "static/js/453.9c226ca7.chunk.js": "/static/js/453.9c226ca7.chunk.js",
+    "static/media/PythorAndC.png": "/static/media/PythorAndC.e704ecf59ca9d288356c.png",
+    "static/media/Electron.png": "/static/media/Electron.090ade8b90e41d092787.png",
+    "static/media/Parede preta.jpeg": "/static/media/Parede preta.87a0f52eb9cc44d25109.jpeg",
+    "static/media/Soft.jpeg": "/static/media/Soft.577ba9eb99c4d682cb0a.jpeg",
+    "static/media/RpaForms.jpg": "/static/media/RpaForms.05c6a816711841193134.jpg",
+    "static/media/ThreeLanguages.jpeg": "/static/media/ThreeLanguages.cc2494301b47bf8fe57f.jpeg",
+    "static/media/BMI.jpeg": "/static/media/BMI.393da0ff783e4962c399.jpeg",
+    "static/media/FotoFolio.jpeg": "/static/media/FotoFolio.dc0fb21f7039fefa9f35.jpeg",
+    "static/media/curriculo.png": "/static/media/curriculo.75f0f3ba1d38b91996a9.png",
+    "static/media/WinF.jpeg": "/static/media/WinF.fdaba8826bdb83d07a64.jpeg",
+    "static/media/projetos.png": "/static/media/projetos.b359085f8dfafa4de217.png",
+    "static/media/Arduino.jpeg": "/static/media/Arduino.f35e5cfa967cd0e48b3c.jpeg",
+    "static/media/github.png": "/static/media/github.37df0b4d8d19fb23562a.png",
+    "index.html": "/index.html",
+    "main.c37a3ce2.css.map": "/static/css/main.c37a3ce2.css.map",
+    "main.46e3155f.js.map": "/static/js/main.46e3155f.js.map",
+    "453.9c226ca7.chunk.js.map": "/static/js/453.9c226ca7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c37a3ce2.css",
+    "static/js/main.46e3155f.js"
+  ]
+}
