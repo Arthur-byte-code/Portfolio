@@ -5,7 +5,7 @@ import './Projetos.css'; // Importar o CSS específico para a página de projeto
 // Importar imagens de exemplo
 import RPA from '../assets/PythorAndC.png';
 import BMI from '../assets/BMI.jpeg';
-import ELECTRON from '../assets/Electron.png';
+import ELECTRON from '../assets/firebase_logo_shot.png';
 import FOTOFOLIO from '../assets/FotoFolio.jpeg';
 import WINF from '../assets/WinF.jpeg';
 import RPAFORMS from '../assets/RpaForms.jpg';
@@ -42,9 +42,9 @@ function Projetos() {
         <div className="projeto-card">
           <img src={ELECTRON} alt="Projeto" className="projeto-image" />
           <div className="projeto-details">
-            <h2>Electron And Mysql</h2>
-            <p>A login a register system built with Electron.js, Node.js and MySQL</p>
-            <a href="https://github.com/Arthur-byte-code/Electron-And-Mysql" target="_blank" rel="noopener noreferrer" className="projeto-button">
+            <h2>Electron And Firebase</h2>
+            <p>A login and register system built with Electron.js, Node.js and Firebase</p>
+            <a href="https://github.com/Arthur-byte-code/ElectronAndFirebase.git" target="_blank" rel="noopener noreferrer" className="projeto-button">
               See it on github
             </a>
           </div>
