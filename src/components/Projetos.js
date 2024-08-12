@@ -16,7 +16,7 @@ import ARDUINO from '../assets/Arduino.jpeg'
 function Projetos() {
   return (
     <div className="page">
-      <h1>Projects</h1>
+      <h1>My Projects</h1>
       <div className="projetos-content">
         {/* Exemplo de Projeto */}
         <div className="projeto-card">
