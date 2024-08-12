@@ -15,6 +15,7 @@ nav {
   color: rgb(255, 255, 255); /* Azul neon */
   font-size: 1.5rem;
   font-weight: bold;
+  user-select: none;
   text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f, 0 0 20px #00f, 0 0 25px #00f, 0 0 30px #00f, 0 0 32px #00f;
 }
 
