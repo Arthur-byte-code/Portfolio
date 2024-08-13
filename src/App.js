@@ -31,19 +31,20 @@ function App() {
               <Link to="/projetos">
                 <img src={projetosIcon} alt="Projetos" />
               </Link>
-              Projects 
+              <Link to="/projetos">Projects</Link>
             </li>
             <li>
               <Link to="/curriculo">
                 <img src={curriculoIcon} alt="Currículo" />
               </Link>
-              Résumé
+              <Link to="/curriculo">Résumé</Link>
             </li>
             <li>
               <a href="https://github.com/Arthur-byte-code" target="_blank" rel="noopener noreferrer">
                 <img src={githubIcon} alt="GitHub" />
+                GitHub
               </a>
-              GitHub
+              
             </li>
           </ul>
         </nav>
