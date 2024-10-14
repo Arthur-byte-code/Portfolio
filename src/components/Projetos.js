@@ -1,8 +1,12 @@
-import React from 'react';
+
+
+
 import './Background.css';
 import './Projetos.css'; // Importar o CSS específico para a página de projetos
+import PageUp from './PageUp';
 
 // Importar imagens de exemplo
+
 import RPA from '../assets/PythorAndC.png';
 import BMI from '../assets/BMI.jpeg';
 import ELECTRON from '../assets/firebase_logo_shot.png';
@@ -14,6 +18,7 @@ import ARDUINO from '../assets/Arduino.jpeg'
 
 
 function Projetos() {
+ 
   return (
     <div className="page">
       <h1>My Projects</h1>
@@ -100,6 +105,7 @@ function Projetos() {
             </a>
           </div>
         </div>
+        <PageUp/>
       </div>
     </div>
   );

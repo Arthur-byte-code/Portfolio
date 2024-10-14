@@ -1,6 +1,8 @@
 import React from 'react';
 import './Background.css';
 import './Curriculo.css'; // Importa o CSS específico para a página de currículo
+import PageUp from './PageUp';
+
 
 // Importa a imagem de perfil
 import Hard from '../assets/ThreeLanguages.jpeg';
@@ -9,6 +11,8 @@ import Soft from '../assets/Soft.jpeg';
 function Curriculo() {
   return (
     <div className="page">
+      <PageUp></PageUp>
+
         <ul id='menu'>
           <li>
           <a href="https://www.linkedin.com/in/arthur-henrique-65a0b8252/"  class="custom-link">LinkedIn</a>
