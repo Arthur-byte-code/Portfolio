@@ -6,7 +6,8 @@
     font-size: 250%;
     background-color: #007BFF;
     color: white;
-    border: none;
+    border-color: aliceblue;
+    border-width: 1px;
     border-radius: 5px;
     cursor: pointer;
     transition: opacity 0.3s ease;
