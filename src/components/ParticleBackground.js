@@ -3,8 +3,8 @@ import './ParticleBackground.css'; // Importa o CSS do ParticleBackground
 
 const ParticleBackground = () => {
     const canvasRef = useRef(null);
+    const particlesArrayRef = useRef([]); // Use useRef para preservar o array de partículas
     const numberOfParticles = 100;
-    let particlesArray = [];
 
     useEffect(() => {
         const canvas = canvasRef.current;
@@ -22,7 +22,7 @@ const ParticleBackground = () => {
 
         // Inicializa partículas e ajusta o canvas
         const init = () => {
-            particlesArray = [];
+            particlesArrayRef.current = []; // Limpa o array de partículas
             for (let i = 0; i < numberOfParticles; i++) {
                 const size = Math.random() * 5 + 2;
                 const x = Math.random() * canvas.width;
@@ -30,7 +30,7 @@ const ParticleBackground = () => {
                 const velocityX = (Math.random() * 0.5) - 0.25;
                 const velocityY = (Math.random() * 0.5) - 0.25;
                 const color = 'rgba(0, 170, 255, 1)'; // Cor neon azul
-                particlesArray.push(new Particle(x, y, size, color, velocityX, velocityY));
+                particlesArrayRef.current.push(new Particle(x, y, size, color, velocityX, velocityY));
             }
         };
 
@@ -72,9 +72,9 @@ const ParticleBackground = () => {
         // Anima partículas
         const animate = () => {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            for (let i = 0; i < particlesArray.length; i++) {
-                particlesArray[i].update();
-                particlesArray[i].draw();
+            for (let i = 0; i < particlesArrayRef.current.length; i++) {
+                particlesArrayRef.current[i].update();
+                particlesArrayRef.current[i].draw();
             }
             requestAnimationFrame(animate);
         };
