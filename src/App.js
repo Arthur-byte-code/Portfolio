@@ -4,6 +4,7 @@ import Projetos from './components/Projetos';
 import Curriculo from './components/Curriculo';
 import './App.css';
 
+
 // Importar imagens
 import projetosIcon from './assets/projetos.png';
 import curriculoIcon from './assets/curriculo.png';
@@ -17,8 +18,13 @@ function App() {
   };
 
   return (
+    
     <Router>
+      
       <div className="App">
+      
+      
+        
         <nav>
           <div className="logo">Arthur Byte Code</div>
           <div className={`menu-icon ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
@@ -54,7 +60,9 @@ function App() {
           <Route path="/" element={<Projetos />} />
         </Routes>
       </div>
+      
     </Router>
+    
   );
 }
 

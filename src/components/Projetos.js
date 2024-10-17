@@ -1,9 +1,8 @@
-
-
-
 import './Background.css';
 import './Projetos.css'; // Importar o CSS específico para a página de projetos
 import PageUp from './PageUp';
+import ParticleBackground from './ParticleBackground';
+
 
 // Importar imagens de exemplo
 
@@ -20,9 +19,15 @@ import ARDUINO from '../assets/Arduino.jpeg'
 function Projetos() {
  
   return (
+    
+    
     <div className="page">
+      
+      <ParticleBackground></ParticleBackground>
+      
       <h1>My Projects</h1>
       <div className="projetos-content">
+        
         {/* Exemplo de Projeto */}
         <div className="projeto-card">
           <img src={RPA} alt="Projeto" className="projeto-image" />

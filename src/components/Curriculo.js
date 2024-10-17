@@ -2,6 +2,8 @@ import React from 'react';
 import './Background.css';
 import './Curriculo.css'; // Importa o CSS específico para a página de currículo
 import PageUp from './PageUp';
+import ParticleBackground from './ParticleBackground';
+
 
 
 // Importa a imagem de perfil
@@ -11,7 +13,9 @@ import Soft from '../assets/Soft.jpeg';
 function Curriculo() {
   return (
     <div className="page">
+      <ParticleBackground></ParticleBackground>
       <PageUp></PageUp>
+      
 
         <ul id='menu'>
           <li>

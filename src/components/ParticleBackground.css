@@ -1,0 +1,9 @@
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Largura total da viewport */
+    height: 100%; /* Altura total da viewport */
+    z-index: -1; /* Isso garante que o fundo fique atrás dos projetos */
+    
+}

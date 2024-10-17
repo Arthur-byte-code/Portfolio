@@ -1,12 +1,4 @@
-.page {
-    background-image: url('../assets/Parede\ preta.jpeg'); /* Caminho para a imagem de papel de parede */
-    
-    background-position: center;
-    background-repeat: repeat; /* Adiciona repetição da imagem */
-    min-height: 100vh;
-    color: #fff; /* Cor do texto, ajuste conforme necessário */
-    padding: 2rem;
-  }
+
 .page h1{
   text-align: center;
 

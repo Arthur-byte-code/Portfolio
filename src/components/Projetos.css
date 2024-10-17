@@ -1,5 +1,10 @@
 
+.page {
+  position: relative;
 
+  
+  min-height: 100vh; /* Garante que a página tenha, no mínimo, a altura da tela */
+}
 .projetos-content {
     display: flex;
     flex-direction: column;
@@ -7,11 +12,14 @@
   }
   
   .projeto-card {
+    border-width: 1px;
+    border-color: #0056b3;
     display: flex;
     background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhor contraste */
     padding: 1rem;
     border-radius: 8px;
     align-items: center;
+    margin: 1%;
   }
   
   .projeto-image {
@@ -32,11 +40,13 @@
   .projeto-details h2 {
     font-size: 1.5rem;
     margin: 0;
+    color: aliceblue;
   }
   
   .projeto-details p {
     margin: 0;
     font-size: 1rem;
+    color: aliceblue;
   }
   
   .projeto-button {
