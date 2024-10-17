@@ -15,7 +15,7 @@
     border-width: 1px;
     border-color: #0056b3;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhor contraste */
+    background-color: rgb(8 16 39 / 70%); /* Fundo semi-transparente para melhor contraste */
     padding: 1rem;
     border-radius: 8px;
     align-items: center;
