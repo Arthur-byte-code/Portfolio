@@ -72,10 +72,10 @@ const ParticleBackground = () => {
         // Anima partículas
         const animate = () => {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            for (let i = 0; i < particlesArrayRef.current.length; i++) {
-                particlesArrayRef.current[i].update();
-                particlesArrayRef.current[i].draw();
-            }
+            particlesArrayRef.current.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
             requestAnimationFrame(animate);
         };
 

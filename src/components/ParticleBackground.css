@@ -6,4 +6,5 @@ canvas {
     height: 100%; /* Altura total da viewport */
     z-index: -1; /* Isso garante que o fundo fique atrás dos projetos */
     
+    
 }
