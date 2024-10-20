@@ -23,7 +23,7 @@ function Curriculo() {
           </li>
         </ul>
 
-        <h1>Résumé</h1>
+        <h1>Resume</h1>
         <div className="curriculo-content">
         
 
