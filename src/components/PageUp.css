@@ -12,6 +12,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: opacity 0.3s ease;
+    z-index: 10000;
   }
   
   .back-to-top:hover {

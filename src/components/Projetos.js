@@ -22,9 +22,10 @@ function Projetos() {
     
     
     <div className="page">
+
       
-      <ParticleBackground></ParticleBackground>
-      
+      <ParticleBackground ></ParticleBackground>
+      <PageUp/>
       <h1>My Projects</h1>
       <div className="projetos-content">
         
@@ -110,7 +111,6 @@ function Projetos() {
             </a>
           </div>
         </div>
-        <PageUp/>
       </div>
     </div>
   );

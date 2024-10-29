@@ -3,6 +3,7 @@
 .App {
   font-family: Arial, sans-serif;
   
+  
  
 }
 
@@ -10,7 +11,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #333;
+  background-color: #131212d3;
   padding: 0.5rem;
   position: relative;
   width: 100%;
@@ -89,13 +90,15 @@ nav ul li a:hover img {
   @media (max-width: 768px) {
     .menu-icon {
       display: flex;
+      background-color: #131212d3;
+
+      
     }
     nav {
       display: flex;
       align-items: center;
-      justify-content:space-around;
-      gap: 30%;
-      background-color: #333;
+      justify-content:space-between;
+      background-color: #131212d3;
       padding: 1rem;
       position: relative;
       width: 100%;
@@ -106,7 +109,7 @@ nav ul li a:hover img {
       position: absolute;
       top: 70px;
       right: 0;
-      background-color: #333;
+      background-color: #131212d3;
       width: 100%;
       max-height: 0;
       overflow: hidden;
@@ -118,6 +121,8 @@ nav ul li a:hover img {
   
     nav ul.open {
       max-height: 350px; /* Ajuste para permitir que todos os itens sejam exibidos */
+      background-color: #131212d3;
+
     }
   
     nav ul li {

@@ -3,7 +3,8 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow-x: hidden; /* Prevent horizontal overflow */
+    
+    
 }
 canvas {
 
@@ -13,6 +14,7 @@ canvas {
     width: 100%; /* Largura total da viewport */
     height: 100%; /* Altura total da viewport */
     z-index: -1; /* Isso garante que o fundo fique atrás dos projetos */
+    pointer-events: none;
     
    
 }
