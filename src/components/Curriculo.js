@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Background.css';
 import './Curriculo.css'; // Importa o CSS específico para a página de currículo
 import PageUp from './PageUp';
 import ParticleBackground from './ParticleBackground';
+import { ChromePicker } from 'react-color'; // Importa o componente de seleção de cor
+
+
+
 
 
 
@@ -11,10 +15,27 @@ import Hard from '../assets/ThreeLanguages.jpeg';
 import Soft from '../assets/Soft.jpeg';
 
 function Curriculo() {
+  const [color, setColor] = useState('#00f'); // Estado para armazenar a cor selecionada
+  const [showPicker, setShowPicker] = useState(false); // Estado para alternar visibilidade do seletor de cor
+
+  // Função para mudar a cor
+  const handleColorChange = (newColor) => {
+    setColor(newColor.hex);
+  };
   return (
     <div className="page">
       <ParticleBackground></ParticleBackground>
       <PageUp></PageUp>
+          {/* Botão de seleção de cor */}
+    <button onClick={() => setShowPicker(!showPicker)} className="color-picker-button">
+        Select Background Color
+      </button>
+      {showPicker && (
+        <div style={{ position: 'absolute', top: '100px', left: '50px', zIndex: 10000 }}>
+          <ChromePicker color={color} onChangeComplete={handleColorChange} />
+        </div>
+      )}
+      
       
 
         <ul id='menu'>
