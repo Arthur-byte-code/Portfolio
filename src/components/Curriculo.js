@@ -37,6 +37,7 @@ function Curriculo() {
             <li>I have knowledge of Object-Oriented Programming (OOP);</li>
             <li>Databases: SQL Server, SQLite, and MySQL;</li>
             <li>Process automation using the PyAutoGui library (RPA);</li>
+<li>Azure;</li>
             <li>Electron.Js;</li>
             <li>React;</li>
             <li>React Native;</li>
