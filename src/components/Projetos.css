@@ -70,7 +70,10 @@
     .projeto-card {
       
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
+      margin-left: 8%;
+        
+
     }
   
     .projeto-image {
