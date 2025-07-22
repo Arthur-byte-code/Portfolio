@@ -80,6 +80,8 @@ h1{
   @media (max-width: 768px) {
     .curriculo-content {
       padding: 1rem;
+      align-items: center;
+      margin-left: 8%;
     }
   
     .profile-image {
