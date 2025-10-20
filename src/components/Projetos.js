@@ -12,7 +12,8 @@ import WINF from '../assets/WinF.jpeg';
 import RPAFORMS from '../assets/RpaForms.jpg';
 import BATCH from '../assets/Batch.jpeg';
 import ARDUINO from '../assets/Arduino.jpeg';
-import WEBSOCKET from '../assets/WebSocket_colored_logo.svg.png'; // <-- nova imagem local
+import WEBSOCKET from '../assets/WebSocket_colored_logo.svg.png';
+import ADMPARKEDCARS from '../assets/AdmParkedCars.png'; // <-- nova imagem importada
 
 function Projetos() {
   return (
@@ -21,6 +22,18 @@ function Projetos() {
       <PageUp />
       <h1>My Projects</h1>
       <div className="projetos-content">
+
+        {/* AdmParkedCars - React Native + Firebase */}
+        <div className="projeto-card">
+          <img src={ADMPARKEDCARS} alt="AdmParkedCars project" className="projeto-image" />
+          <div className="projeto-details">
+            <h2>AdmParkedCars</h2>
+            <p>A React Native application that integrates with Firebase to manage parking spaces and vehicles descriptions.</p>
+            <a href="https://github.com/Arthur-byte-code/AdmParkedCars" target="_blank" rel="noopener noreferrer" className="projeto-button">
+              See it on github
+            </a>
+          </div>
+        </div>
 
         {/* WebSocket Chat - imagem local */}
         <div className="projeto-card">
